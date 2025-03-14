@@ -71,7 +71,7 @@
 			| @parent_columns = Sparate with comma, e.g : name,created_at
 	        | 
 	        */
-	        $this->sub_module = array();
+	        $this->sub_module = [];
 
 
 	        /* 
@@ -85,7 +85,7 @@
 	        | @showIf 	   = If condition when action show. Use field alias. e.g : [id] == 1
 	        | 
 	        */
-	        $this->addaction = array();
+	        $this->addaction = [];
 
 
 	        /* 
@@ -98,7 +98,7 @@
 	        | Then about the action, you should code at actionButtonSelected method 
 	        | 
 	        */
-	        $this->button_selected = array();
+	        $this->button_selected = [];
 
 	                
 	        /* 
@@ -109,7 +109,7 @@
 	        | @type    = warning,success,danger,info        
 	        | 
 	        */
-	        $this->alert        = array();
+	        $this->alert        = [];
 	                
 
 	        
@@ -122,7 +122,7 @@
 	        | @icon  = Icon from Awesome.
 	        | 
 	        */
-	        $this->index_button = array();
+	        $this->index_button = [];
 
 
 
@@ -134,7 +134,7 @@
 	        | @color = Default is none. You can use bootstrap success,info,warning,danger,primary.        
 	        | 
 	        */
-	        $this->table_row_color = array();     	          
+	        $this->table_row_color = [];     	          
 
 	        
 	        /*
@@ -144,7 +144,7 @@
 	        | @label, @count, @icon, @color 
 	        |
 	        */
-	        $this->index_statistic = array();
+	        $this->index_statistic = [];
 
 
 
@@ -191,7 +191,7 @@
 	        | $this->load_js[] = asset("myfile.js");
 	        |
 	        */
-	        $this->load_js = array();
+	        $this->load_js = [];
 	        
 	        
 	        
@@ -215,7 +215,7 @@
 	        | $this->load_css[] = asset("myfile.css");
 	        |
 	        */
-	        $this->load_css = array();
+	        $this->load_css = [];
 	        
 	        
 	    }

@@ -75,7 +75,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 			| @parent_columns = Sparate with comma, e.g : name,created_at
 	        | 
 	        */
-		$this->sub_module = array();
+		$this->sub_module = [];
 
 
 		/* 
@@ -89,7 +89,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | @showIf 	   = If condition when action show. Use field alias. e.g : [id] == 1
 	        | 
 	        */
-		$this->addaction = array();
+		$this->addaction = [];
 
 
 		/* 
@@ -102,7 +102,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | Then about the action, you should code at actionButtonSelected method 
 	        | 
 	        */
-		$this->button_selected = array();
+		$this->button_selected = [];
 
 
 		/* 
@@ -113,7 +113,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | @type    = warning,success,danger,info        
 	        | 
 	        */
-		$this->alert        = array();
+		$this->alert        = [];
 
 
 
@@ -126,7 +126,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | @icon  = Icon from Awesome.
 	        | 
 	        */
-		$this->index_button = array();
+		$this->index_button = [];
 
 
 
@@ -138,7 +138,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | @color = Default is none. You can use bootstrap success,info,warning,danger,primary.        
 	        | 
 	        */
-		$this->table_row_color = array();
+		$this->table_row_color = [];
 
 
 		/*
@@ -148,7 +148,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | @label, @count, @icon, @color 
 	        |
 	        */
-		$this->index_statistic = array();
+		$this->index_statistic = [];
 
 
 
@@ -215,7 +215,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | $this->load_js[] = asset("myfile.js");
 	        |
 	        */
-		$this->load_js = array();
+		$this->load_js = [];
 
 
 
@@ -239,7 +239,7 @@ class AdminTransactionsController extends \crocodicstudio\crudbooster\controller
 	        | $this->load_css[] = asset("myfile.css");
 	        |
 	        */
-		$this->load_css = array();
+		$this->load_css = [];
 	}
 
 
