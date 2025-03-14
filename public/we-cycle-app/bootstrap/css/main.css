@@ -1,0 +1,167 @@
+@import url("brand.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.bg-green-main {
+    background-color: var(--primary-green);
+}
+
+.text-main {
+    color: var(--primary-green);
+}
+
+.max-w-screen-sm {
+    max-width: 428px !important;
+}
+
+.min-h-full {
+    min-height: 100% !important;
+}
+
+.my-0 {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.header-container {
+    position: fixed;
+    margin: 0 auto;
+    max-width: 428px;
+    width: 100%;
+    z-index: 11;
+}
+
+.header-wrapper {
+    max-width: 428px;
+    display: flex;
+    margin: 0px auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.header-user {
+    height: 256px;
+    max-width: 428px;
+    margin: 0px auto;
+    -webkit-box-pack: justify;
+    width: 100%;
+}
+
+.gradient-brand {
+    background: linear-gradient(89.8deg, #00F260 -18.28%, #0575E6 113.98%);
+}
+
+.gradient-brand-toRight {
+    background: linear-gradient(90deg, #00F260 -56.01%, #0575E6 142.08%);
+}
+
+.gradient-top-bottom {
+    background: linear-gradient(180deg, #00F260 -39%, #0575E6 141%);
+}
+
+#home-page {
+    min-height: calc(100vh - 60px);
+}
+
+.hero {
+    height: 184px;
+    background: url('../../../images/sampah-bg.png') rgba(5, 117, 230, 0.34); 
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 14px;
+  }
+
+.landing-card-shadow {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.font-sm {
+    font-size: 14px !important;
+}
+
+.landing-footer {
+    background-color: #D9D9D9;
+}
+
+.btn-circle {
+    border-radius: 30px;
+    margin: 0 1em;
+    background-color: #0C0C20;
+}
+
+.main-container {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+/* DASHBOARD PAGE */
+#dashboard-page {
+    min-height: calc(100vh - 256px);
+}
+
+.dashboard-header {
+    margin: 0 auto;
+    max-width: 428px;
+    width: 100%;
+}
+
+/* TUKAR POIN PAGE */
+#tukar-poin-page {
+    max-width: 428px;
+    min-height: calc(100vh - 96px);
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.reward-name {
+    overflow: hidden;
+    max-width: 75ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#profile-header {
+    position: relative;
+    height: 200px;
+    top: -90px;
+    background: linear-gradient(180deg, #00F260 -4.03%, #0575E6 100%);
+    border-radius: 180px;
+    z-index: 10;
+    margin-bottom: -160px;
+}
+
+.bg-profile-detail {
+    background-color: #6DA7BE;
+}
